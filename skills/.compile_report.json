@@ -1,0 +1,100 @@
+{
+  "compiled_package_id": "lightkurve",
+  "evidence": {
+    "core_skills": [
+      "lightkurve-reference",
+      "lightkurve-build-and-install",
+      "lightkurve-analysis-and-output",
+      "lightkurve-developer-guide",
+      "lightkurve-api-and-scripting",
+      "lightkurve-about"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/lightkurve-reference.md",
+      "skills/.evidence/lightkurve-build-and-install.md",
+      "skills/.evidence/lightkurve-analysis-and-output.md",
+      "skills/.evidence/lightkurve-developer-guide.md",
+      "skills/.evidence/lightkurve-api-and-scripting.md",
+      "skills/.evidence/lightkurve-about.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary package metadata from pyproject.toml (tool.poetry.name = lightkurve).",
+      "Tutorial notebooks/examples are nested under docs/source/tutorials and should be passed explicitly for generation.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to fix invalid f-string expressions that blocked dry-run execution."
+    ],
+    "package_name": "lightkurve",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "docs/source/tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve",
+  "validation": {
+    "core_skills_checked": [
+      "lightkurve-reference",
+      "lightkurve-build-and-install",
+      "lightkurve-advanced-topics",
+      "lightkurve-about",
+      "lightkurve-analysis-and-output",
+      "lightkurve-developer-guide"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-reference/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-advanced-topics/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-advanced-topics/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-about/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-analysis-and-output/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/lightkurve-lightkurve/skills/lightkurve-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "lightkurve-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 41,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}

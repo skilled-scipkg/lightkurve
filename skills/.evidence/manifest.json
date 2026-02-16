@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "lightkurve-reference",
+    "lightkurve-build-and-install",
+    "lightkurve-analysis-and-output",
+    "lightkurve-developer-guide",
+    "lightkurve-api-and-scripting",
+    "lightkurve-about"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/lightkurve-reference.md",
+    "skills/.evidence/lightkurve-build-and-install.md",
+    "skills/.evidence/lightkurve-analysis-and-output.md",
+    "skills/.evidence/lightkurve-developer-guide.md",
+    "skills/.evidence/lightkurve-api-and-scripting.md",
+    "skills/.evidence/lightkurve-about.md"
+  ]
+}
